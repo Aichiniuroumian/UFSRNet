@@ -12,13 +12,9 @@ I have tested the codes on
 
 ### Test with Pretrained Models
 
-We provide example test commands in script `test.sh` for both SPARNet and SPARNetHD. Two models with difference configurations are provided for each of them, refer to [section below](#differences-with-the-paper) to see the differences. Here are some test tips:
 
-- SPARNet upsample a 16x16 bicubic downsampled face image to 128x128, and there is **no need to align the LR face**.   
-- Please specify test input directory with `--dataroot` option.  
-- Please specify save path with `--save_as_dir`, otherwise the results will be saved to predefined directory `results/exp_name/test_latest`.  
-
-
+Pre-training model download address：[pretrain_models](https://pan.baidu.com/s/1rtYgHx-jQtiD00HBVPg4qQ) 
+Password：scsb
 
 ### Train the Model
 
