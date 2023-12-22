@@ -30,4 +30,4 @@ The commands used to train the released models are provided in script `train.sh`
 
 ## Acknowledgement
 
-The codes are based on [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). The project also benefits from [DICNet](https://github.com/Maclory/Deep-Iterative-Collaboration).  The project also benefits from [SPARNet](https://github.com/chaofengc/Face-SPARNet).
+The codes are based on [SPARNet](https://github.com/chaofengc/Face-SPARNet). The project also benefits from [DICNet](https://github.com/Maclory/Deep-Iterative-Collaboration). 
