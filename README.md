@@ -12,9 +12,7 @@ I have tested the codes on
 
 ### Test with Pretrained Models
 
-
-Pre-training model download address：[pretrain_models](https://pan.baidu.com/s/1rtYgHx-jQtiD00HBVPg4qQ) 
-Password：scsb
+You can directly use . /pretrain_models/latest_net_G.pth to test.
 
 ### Train the Model
 
