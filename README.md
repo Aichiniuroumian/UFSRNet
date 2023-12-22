@@ -15,7 +15,6 @@ I have tested the codes on
 We provide example test commands in script `test.sh` for both SPARNet and SPARNetHD. Two models with difference configurations are provided for each of them, refer to [section below](#differences-with-the-paper) to see the differences. Here are some test tips:
 
 - SPARNet upsample a 16x16 bicubic downsampled face image to 128x128, and there is **no need to align the LR face**.   
-- SPARNetHD enhance a low quality face image and generate high quality 512x512 outputs, and the LQ inputs **should be pre-aligned as FFHQ**.  
 - Please specify test input directory with `--dataroot` option.  
 - Please specify save path with `--save_as_dir`, otherwise the results will be saved to predefined directory `results/exp_name/test_latest`.  
 
@@ -37,4 +36,4 @@ The commands used to train the released models are provided in script `train.sh`
 
 ## Acknowledgement
 
-The codes are based on [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). The project also benefits from [DICNet](https://github.com/Maclory/Deep-Iterative-Collaboration).  The project also benefits from [SPARNet]([https://github.com/chaofengc/Face-SPARNet]).
+The codes are based on [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). The project also benefits from [DICNet](https://github.com/Maclory/Deep-Iterative-Collaboration).  The project also benefits from [SPARNet](https://github.com/chaofengc/Face-SPARNet).
