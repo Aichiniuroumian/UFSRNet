@@ -68,15 +68,13 @@ def psnr_ssim_dir(gt_dir, test_dir):
 
 if __name__ == '__main__':
 
-    # gt_dir = 'test_dirs/Helen_test_DIC/HR'
     gt_dir = 'test_dirs/CelebA_test_DIC/HR'
-    # gt_dir = r'D:\paper\001_first\对比结果\HR\CelebA'
     test_dirs = [
             # './results_helen/SPARNet_S16_V4_Attn2D',
             # './results_helen/SPARNet_sy80_10',
             # './results_CelebA/SPARNet_sy36_10',
 
-            '/home/wang107552002794/UFSRNet/results_CelebA/MRRNet_fx01',
+            './UFSRNet/results_CelebA/UFSRNet_fx01',
             ]
     for td in test_dirs:
         result = psnr_ssim_dir(td, gt_dir)
